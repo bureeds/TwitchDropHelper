@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twitch dropper</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header"><div class="left" onclick="blackTheme();">Twtich Dropper</div><div class="right"><input type="text" id="Cname" placeholder="enter channel name"><button onclick="addChannel();">Add</button><button onclick="clearChannels();">Clear</button><button onclick="deleteChannel();">Delete</button><br><input type="checkbox" id="CheckRepeat"> repeat <input type="number" id="repeat"> time(s)<br>
+    <input type="checkbox" id="video" checked>Video <input type="checkbox" id="chat" checked>Chat<br>
+    box height <input type="number" id="height" value="250"> px
+    width <input type="number" id="width" value="250"> px
+    </div></div>
+    <div id="output">
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

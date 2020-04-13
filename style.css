@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+}
+.header{
+    width: auto;
+    height: 200px;
+    background-color: #6441A4;
+    text-align: center;
+    color: white;
+    
+    
+}
+.left{
+    width: 50%;
+    float: left;
+    font-size: 25px;
+    line-height: 100px;
+}
+.right{
+    float: left;
+    width: 50%;
+    line-height: 50px;
+}
+#repeat{
+    width: 40px;
+    height: 25px;
+    border-radius: 5px;
+    border: 1px solid white;
+}
+#Cname{
+    height: 25px;
+    border-radius: 5px;
+    border: 1px solid white;
+}
+#height{
+    width: 50px;
+    height: 25px;
+    border-radius: 5px;
+    border: 1px solid white;
+}
+#width{
+    width: 50px;
+    height: 25px;
+    border-radius: 5px;
+    border: 1px solid white;
+}
